@@ -10,7 +10,7 @@ offset = 20
 ImgSize=300
 
 counter=0
-folders="data/a"
+folders="data/b"
 
 
 while True:
@@ -60,4 +60,3 @@ while True:
         print("Image saved")
         cv2.imwrite(f'{folders}/{counter}.jpg',imgwhite)
         print(counter)
-        
